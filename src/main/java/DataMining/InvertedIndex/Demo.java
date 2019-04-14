@@ -2,6 +2,9 @@ package DataMining.InvertedIndex;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeSet;
 
 public class Demo {
 	
@@ -10,11 +13,16 @@ public class Demo {
 		File[] menuSet = menuDirectory.listFiles();
 		InvertedIndexer indexer = InvertedIndexer.getInstanceOf();
 
-		indexer.addFileToInvertedIndex(menuSet[1]);
-//		for(File currentFile : menuSet){
-//			indexer.addFileToInvertedIndex(currentFile);
-//		}
-
+		for(int i = 0; i < menuSet.length ; ++i){
+			System.out.println(i + " Menu "+ menuSet[i].getName());
+		}
+		
+		for(int i = 0; i < menuSet.length ; ++i){
+			indexer.addFileToInvertedIndex(menuSet[i], i);
+		}
+		
+		indexer.printInvertedIndex();
+		
 	}
 
 }

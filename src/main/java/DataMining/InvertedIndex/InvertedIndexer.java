@@ -3,33 +3,31 @@ package DataMining.InvertedIndex;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.Set;
+import java.util.TreeSet;
+
+import org.apache.commons.lang3.StringUtils;
 
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
-/**
- * Hello world!
- *
- */
+
 public class InvertedIndexer 
 {
 	private static InvertedIndexer instance;
 	
-	private Map<String, LinkedList<Integer>> invertedIndex;
+	private Map<Dictionary, TreeSet<Integer>> invertedIndex;
     
 	private InvertedIndexer() {
-		invertedIndex = new HashMap<String, LinkedList<Integer>>();
+		invertedIndex = new HashMap<Dictionary, TreeSet<Integer>>();
 	}
 	
 	public static InvertedIndexer getInstanceOf(){
@@ -40,7 +38,22 @@ public class InvertedIndexer
 	}
 	
 	
-	public void addFileToInvertedIndex(File file) throws IOException{
+	private Dictionary getDictionaryIfPresent(String term){
+		Dictionary dictionaryForTerm = null;
+		
+		for(Dictionary dictionary : invertedIndex.keySet()){
+			
+			if(dictionary.term.equals(term)){
+				dictionaryForTerm = dictionary;
+				break;
+			}
+		}
+		
+		return dictionaryForTerm;
+	}
+	
+	
+	public void addFileToInvertedIndex(File file, int documentId) throws IOException{
 		Properties properties = new Properties();
 		properties.setProperty("annotators", "tokenize, ssplit, pos, lemma");
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
@@ -58,11 +71,39 @@ public class InvertedIndexer
 			
 			for(CoreLabel token: tokens){
 				currentTerm = token.lemma();
-				System.out.println(currentTerm);
+				currentTerm = currentTerm.replaceAll("[^a-zA-Z0-9\\s]", "").trim().toLowerCase();
 				
+				if( StringUtils.isWhitespace(currentTerm) || StringUtils.isNumeric(currentTerm) ){
+					continue;
+				}
+				
+				Dictionary relaventDictionary = getDictionaryIfPresent(currentTerm);
+				
+				if (relaventDictionary == null){
+					relaventDictionary = new Dictionary(currentTerm);
+					invertedIndex.put(relaventDictionary, new TreeSet<Integer>());
+				}
+				
+				relaventDictionary.frequency += 1;
+				invertedIndex.get(relaventDictionary).add(documentId);
+													
 			}
 			
 			line = bufferedReader.readLine();
+		}
+		
+		inputStreamReader.close();
+		bufferedReader.close();		
+	}
+	
+	public void printInvertedIndex(){
+		for(Dictionary key : invertedIndex.keySet()){
+			System.out.println("Key " + key.term + " Frequency "+ key.frequency);
+			System.out.println("Listing");
+			
+			for(Integer i : invertedIndex.get(key)){
+				System.out.println(i);
+			}
 		}
 	}
 	
