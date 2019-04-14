@@ -1,0 +1,118 @@
+All-Meat Combo Pizza (Original Crust)	Mini	$5.99
+All-Meat Combo Pizza (Original or Golden Crust)	Small	$15.99
+All-Meat Combo Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+All-Meat Combo Pizza (Mozza-Loaded Crust)	Medium	$22.24
+All-Meat Combo Pizza (Original, Golden or Thin Crust)	Large	$23.99
+All-Meat Combo Pizza (Mozza-Loaded Crust)	Large	$26.23
+All-Meat Combo Pizza (Original or Thin Crust)	Jumbo	$27.99
+Bacon Cheeseburger Pizza (Original Crust)	Mini	$5.99
+Bacon Cheeseburger Pizza (Original or Golden Crust)	Small	$15.99
+Bacon Cheeseburger Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Bacon Cheeseburger Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Bacon Cheeseburger Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Bacon Cheeseburger Pizza (Mozza-Loaded Crust)	Large	$26.23
+Bacon Cheeseburger Pizza (Original or Thin Crust)	Jumbo	$27.99
+Taco Pie Pizza (Original Crust)	Mini	$5.99
+Taco Pie Pizza (Original or Golden Crust)	Small	$15.99
+Taco Pie Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Taco Pie Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Taco Pie Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Taco Pie Pizza (Mozza-Loaded Crust)	Large	$26.23
+Taco Pie Pizza (Original or Thin Crust)	Jumbo	$27.99
+Classic Combo Pizza (Original Crust)	Mini	$5.99
+Classic Combo Pizza (Original or Golden Crust)	Small	$15.99
+Classic Combo Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Classic Combo Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Classic Combo Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Classic Combo Pizza (Mozza-Loaded Crust)	Large	$26.23
+Classic Combo Pizza (Original or Thin Crust)	Jumbo	$27.99
+Humble Pie Pizza (Original Crust)	Mini	$5.99
+Humble Pie Pizza (Original or Golden Crust)	Small	$15.99
+Humble Pie Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Humble Pie Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Humble Pie Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Humble Pie Pizza (Mozza-Loaded Crust)	Large	$26.23
+Humble Pie Pizza (Original or Thin Crust)	Jumbo	$27.99
+Veggie Pie Pizza (Original Crust)	Mini	$5.99
+Veggie Pie Pizza (Original or Golden Crust)	Small	$15.99
+Veggie Pie Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Veggie Pie Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Veggie Pie Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Veggie Pie Pizza (Mozza-Loaded Crust)	Large	$26.23
+Veggie Pie Pizza (Original or Thin Crust)	Jumbo	$27.99
+Hot Stuff Pizza (Original Crust)	Mini	$5.99
+Hot Stuff Pizza (Original or Golden Crust)	Small	$15.99
+Hot Stuff Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Hot Stuff Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Hot Stuff Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Hot Stuff Pizza (Mozza-Loaded Crust)	Large	$26.23
+Hot Stuff Pizza (Original or Thin Crust)	Jumbo	$27.99
+Hawaiian Pizza (Original Crust)	Mini	$5.99
+Hawaiian Pizza (Original or Golden Crust)	Small	$15.99
+Hawaiian Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Hawaiian Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Hawaiian Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Hawaiian Pizza (Mozza-Loaded Crust)	Large	$26.23
+Hawaiian Pizza (Original or Thin Crust)	Jumbo	$27.99
+BLT Pizza (Original Crust)	Mini	$5.99
+BLT Pizza (Original or Golden Crust)	Small	$15.99
+BLT Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+BLT Pizza (Mozza-Loaded Crust)	Medium	$22.24
+BLT Pizza (Original, Golden or Thin Crust)	Large	$23.99
+BLT Pizza (Mozza-Loaded Crust)	Large	$26.23
+BLT Pizza (Original or Thin Crust)	Jumbo	$27.99
+Buffalo Chicken Pizza (Original Crust)	Mini	$5.99
+Buffalo Chicken Pizza (Original or Golden Crust)	Small	$15.99
+Buffalo Chicken Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Buffalo Chicken Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Buffalo Chicken Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Buffalo Chicken Pizza (Mozza-Loaded Crust)	Large	$26.23
+Buffalo Chicken Pizza (Original or Thin Crust)	Jumbo	$27.99
+Super Combo Pizza (Original or Golden Crust)	Small	$16.99
+Super Combo Pizza (Original, Golden or Thin Crust)	Medium	$21.99
+Super Combo Pizza (Mozza-Loaded Crust)	Medium	$22.49
+Super Combo Pizza (Original, Golden or Thin Crust)	Large	$25.99
+Super Combo Pizza (Mozza-Loaded Crust)	Large	$26.49
+Super Combo Pizza (Original or Thin Crust)	Jumbo	$29.99
+Super Hawaiian Pizza (Original or Golden Crust)	Small	$16.99
+Super Hawaiian Pizza (Original, Golden or Thin Crust)	Medium	$21.99
+Super Hawaiian Pizza (Mozza-Loaded Crust)	Medium	$22.49
+Super Hawaiian Pizza (Original, Golden or Thin Crust)	Large	$25.99
+Super Hawaiian Pizza (Mozza-Loaded Crust)	Large	$26.49
+Super Hawaiian Pizza (Original or Thin Crust)	Jumbo	$29.99
+Super Taco Pizza (Original or Golden Crust)	Small	$16.99
+Super Taco Pizza (Original, Golden or Thin Crust)	Medium	$21.99
+Super Taco Pizza (Mozza-Loaded Crust)	Medium	$22.49
+Super Taco Pizza (Original, Golden or Thin Crust)	Large	$25.99
+Super Taco Pizza (Mozza-Loaded Crust)	Large	$26.49
+Super Taco Pizza (Original or Thin Crust)	Jumbo	$29.99
+The Don (Original or Golden Crust)	Small	$16.99
+The Don (Original, Golden or Thin Crust)	Medium	$21.99
+The Don (Mozza-Loaded Crust)	Medium	$22.49
+The Don (Original, Golden or Thin Crust)	Large	$25.99
+The Don (Mozza-Loaded Crust)	Large	$26.49
+The Don (Original or Thin Crust)	Jumbo	$29.99
+Super Veggie Pizza (Original or Golden Crust)	Small	$15.99
+Super Veggie Pizza (Original, Golden or Thin Crust)	Medium	$20.99
+Super Veggie Pizza (Mozza-Loaded Crust)	Medium	$22.49
+Super Veggie Pizza (Original, Golden or Thin Crust)	Large	$24.99
+Super Veggie Pizza (Mozza-Loaded Crust)	Large	$26.49
+Super Veggie Pizza (Original or Thin Crust)	Jumbo	$28.99
+BBQ Bacon Cheeseburger Pizza (Original Crust)	Mini	$5.99
+BBQ Bacon Cheeseburger Pizza (Original, Golden or Thin Crust)	Small	$15.99
+BBQ Bacon Cheeseburger Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+BBQ Bacon Cheeseburger Pizza (Mozza-Loaded Crust)	Medium	$22.24
+BBQ Bacon Cheeseburger Pizza (Original, Golden or Thin Crust)	Large	$23.99
+BBQ Bacon Cheeseburger Pizza (Mozza-Loaded Crust)	Large	$26.23
+BBQ Bacon Cheeseburger Pizza (Original, Golden or Thin Crust)	Jumbo	$27.99
+Chipotle Chicken and Bacon Pizza (Original Crust)	Mini	$5.99
+Chipotle Chicken and Bacon Pizza (Original, Golden or Thin Crust)	Small	$15.99
+Chipotle Chicken and Bacon Pizza (Original, Golden or Thin Crust)	Medium	$19.99
+Chipotle Chicken and Bacon Pizza (Mozza-Loaded Crust)	Medium	$22.24
+Chipotle Chicken and Bacon Pizza (Original, Golden or Thin Crust)	Large	$23.99
+Chipotle Chicken and Bacon Pizza (Mozza-Loaded Crust)	Large	$26.23
+Chipotle Chicken and Bacon Pizza (Original, Golden or Thin Crust)	Jumbo	$27.99
+Margherita Pizza (Original, Golden or Thin Crust)	Medium	$9.99
+Margherita Pizza (Thin Crust)	Large	$13.99
+Margherita Chicken Pizza (Original, Golden or Thin Crust)	Medium	$11.99
+Margherita Chicken Pizza (Thin Crust)	Large	$15.99

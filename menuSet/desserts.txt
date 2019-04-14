@@ -1,0 +1,13 @@
+Cherry Cheesecake or Caramel Apple Streusel	Small	$4.99
+Cherry Cheesecake or Caramel Apple Streusel	Medium	$6.49
+Cherry Cheesecake or Caramel Apple Streusel	Large	$7.99
+Cinnamon, Apple or Cherry Streusel	Small	$5.99
+Cinnamon, Apple or Cherry Streusel	Medium	$6.99
+Cinnamon, Apple or Cherry Streusel	Large	$9.99
+Strawberry Lemonade Streusel	Small	$3.99
+Cinnamon Monkey Bread		$5.99
+Streusel Monkey Bread		$4.99
+Caramel Monkey Bread		$5.99
+Chocolate Chip Cookie		$5.99
+Monkey Bread with M&M MINIs	Small	$5.99
+

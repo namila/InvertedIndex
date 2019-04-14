@@ -1,0 +1,7 @@
+Cheese (Original Crust)	Mini	$4.99
+Cheese (Original or Golden Crust)	Small	$10.99
+Cheese (Original, Golden or Thin Crust)	Medium	$12.99
+Cheese (Mozza-Loaded Crust)	Medium	$13.49
+Cheese (Original, Golden or Thin Crust)	Large	$15.99
+Cheese (Mozza-Loaded Crust)	Large	$16.49
+Cheese (Original or Thin Crust)	Jumbo	$18.99

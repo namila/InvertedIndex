@@ -1,0 +1,10 @@
+Breadsticks		$4.99
+Cheesesticks	Small	$4.99
+Cheesesticks	Medium	$5.99
+Cheesesticks	Large	$7.99
+Super Sticks	Small	$5.99
+Super Sticks	Medium	$6.99
+Super Sticks	Large	$8.99
+Garlic Bread		$3.99
+Garlic Cheese Bread		$4.99
+Italian Monkey Bread
