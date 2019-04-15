@@ -2,6 +2,7 @@ package DataMining.InvertedIndex;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeSet;
@@ -22,6 +23,9 @@ public class Demo {
 		}
 		
 		indexer.printInvertedIndex();
+		
+		ArrayList<Integer> searchResults = indexer.searchForTerms("medium", "pie");
+		System.out.println(searchResults);
 		
 	}
 

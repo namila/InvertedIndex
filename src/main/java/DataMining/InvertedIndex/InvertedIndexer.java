@@ -6,11 +6,11 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import java.util.Set;
 import java.util.TreeSet;
 
 import org.apache.commons.lang3.StringUtils;
@@ -94,6 +94,32 @@ public class InvertedIndexer
 		
 		inputStreamReader.close();
 		bufferedReader.close();		
+	}
+	
+	public ArrayList<Integer> searchForTerms(String term1, String term2){
+		ArrayList<Integer> documentsHavingBothTerms = new ArrayList<Integer>();
+		int pointer1 = 0;
+		int pointer2 = 0;
+		Dictionary term1Dictionary = getDictionaryIfPresent(term1.toLowerCase());
+		Dictionary term2Dictionary = getDictionaryIfPresent(term2.toLowerCase());
+		ArrayList<Integer> term1Postings = new ArrayList<Integer>(invertedIndex.get(term1Dictionary));
+		ArrayList<Integer> term2Postings = new ArrayList<Integer>(invertedIndex.get(term2Dictionary));
+		
+		while(pointer1 < term1Postings.size() && pointer2 < term2Postings.size()){
+			
+			if(term1Postings.get(pointer1) == term2Postings.get(pointer2)){
+				documentsHavingBothTerms.add(term1Postings.get(pointer1));
+				pointer1 += 1;
+				pointer2 += 1;
+			}
+			else if (term1Postings.get(pointer1) > term2Postings.get(pointer2)){
+				pointer2 += 1;
+			}
+			else{
+				pointer1 += 1;
+			}
+		}
+		return documentsHavingBothTerms;
 	}
 	
 	public void printInvertedIndex(){
